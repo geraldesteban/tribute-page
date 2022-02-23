@@ -1,0 +1,174 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  scroll-behavior: smooth; }
+  @media only screen and (max-width: 116.875em) {
+    html {
+      font-size: 50%; } }
+  @media only screen and (max-width: 21.875em) {
+    html {
+      font-size: 40%; } }
+
+.nav {
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #252525;
+  border-bottom: 1px solid #fff; }
+  .nav__ul {
+    display: flex; }
+  .nav__li {
+    margin: 2.5rem 0rem;
+    list-style: none; }
+    @media only screen and (max-width: 500px) {
+      .nav__li {
+        margin: 1rem 0rem; } }
+  .nav__link {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    padding: 2.6rem 5rem;
+    background-color: #252525; }
+    @media only screen and (max-width: 600px) {
+      .nav__link {
+        font-size: 2rem;
+        padding: 2.6rem 3rem; } }
+    @media only screen and (max-width: 500px) {
+      .nav__link {
+        padding: 1rem 2rem;
+        font-size: 1.6rem; } }
+    .nav__link:hover {
+      color: #000;
+      background-color: #f9f6ee; }
+
+.home {
+  background: url(../images/background.jpg);
+  border-bottom: 1px solid #fff;
+  height: 100%;
+  color: #fff;
+  font-size: 10rem;
+  text-align: center;
+  text-shadow: 5px 5px 10px black;
+  padding: 35rem; }
+  @media only screen and (max-width: 1500px) {
+    .home {
+      font-size: 8rem; } }
+  @media only screen and (max-width: 1300px) {
+    .home {
+      padding: 20rem 30rem 0rem 30rem;
+      background-position: center;
+      height: 70%; } }
+  @media only screen and (max-width: 1200px) {
+    .home {
+      padding: 20rem 0rem 0rem 0rem; } }
+  @media only screen and (max-width: 1000px) {
+    .home {
+      font-size: 6rem;
+      height: 60%; } }
+  @media only screen and (max-width: 600px) {
+    .home {
+      font-size: 4rem;
+      padding: 10rem 2rem 0rem 2rem;
+      height: 30%; } }
+  @media only screen and (max-width: 500px) {
+    .home {
+      font-size: 3rem; } }
+
+.about {
+  height: 100%;
+  background: url(../images/background__about.jpg);
+  text-align: center; }
+  @media only screen and (max-width: 1500px) {
+    .about {
+      height: 80%; } }
+  @media only screen and (max-width: 1000px) {
+    .about {
+      height: 40%; } }
+  @media only screen and (max-width: 1000px) {
+    .about {
+      height: 50%; } }
+  @media only screen and (max-width: 600px) {
+    .about {
+      height: 65%; } }
+  @media only screen and (max-width: 500px) {
+    .about {
+      height: 100%; } }
+  .about__description {
+    font-size: 4rem;
+    line-height: 1.5;
+    padding: 10rem 20rem 8rem 20rem;
+    color: #fff;
+    text-align: left; }
+    @media only screen and (max-width: 1500px) {
+      .about__description {
+        font-size: 3rem; } }
+    @media only screen and (max-width: 1300px) {
+      .about__description {
+        padding: 10rem 20rem 2rem 20rem; } }
+    @media only screen and (max-width: 1200px) {
+      .about__description {
+        padding: 5rem 20rem 0rem 20rem; } }
+    @media only screen and (max-width: 1200px) {
+      .about__description {
+        padding: 5rem 5rem 5rem 5rem; } }
+    @media only screen and (max-width: 1000px) {
+      .about__description {
+        font-size: 2rem;
+        padding: 5rem 5rem 2rem 5rem; } }
+  .about__link {
+    color: #fff;
+    font-size: 4rem;
+    text-decoration: none;
+    border-bottom: 2px solid #fff; }
+    @media only screen and (max-width: 1000px) {
+      .about__link {
+        font-size: 2rem; } }
+    .about__link:hover {
+      opacity: 0.8; }
+
+.footer {
+  background-color: #252525;
+  border-top: 1px solid #fff; }
+  .footer__text {
+    width: 100%;
+    font-size: 2.5rem;
+    color: #fff;
+    margin-top: 2rem;
+    text-align: center; }
+    @media only screen and (max-width: 1000px) {
+      .footer__text {
+        padding: 0rem 3rem; } }
+    @media only screen and (max-width: 1000px) {
+      .footer__text {
+        font-size: 2rem; } }
+
+.moreinfo {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 5rem; }
+  .moreinfo__ul {
+    display: flex; }
+  .moreinfo__li {
+    list-style: none;
+    margin: 0rem 5rem; }
+    @media only screen and (max-width: 500px) {
+      .moreinfo__li {
+        margin: 0rem 3rem; } }
+  .moreinfo__link {
+    text-decoration: none; }
+  .moreinfo__icon {
+    color: #fff;
+    transform: scale(3);
+    transition: all 1s; }
+    .moreinfo__icon:hover {
+      transform: scale(4); }
